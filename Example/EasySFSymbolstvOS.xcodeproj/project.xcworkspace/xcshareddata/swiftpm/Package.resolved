@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "EasySFSymbols",
+        "repositoryURL": "https://github.com/CrazyFanFan/EasySFSymbols",
+        "state": {
+          "branch": "master",
+          "revision": "7dc4ee75e4e58d48a192406262732c15fe0554b3",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		137835EAF96ACCF5DC08C0A5 /* Pods_EasySFSymbolsiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C13B07B318E5F1CED19452C /* Pods_EasySFSymbolsiOS.framework */; };
+		6314320023AFD54E00DEE103 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631431FF23AFD54E00DEE103 /* AppDelegate.swift */; };
+		6314320223AFD54E00DEE103 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6314320123AFD54E00DEE103 /* SceneDelegate.swift */; };
+		6314320423AFD54E00DEE103 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6314320323AFD54E00DEE103 /* ContentView.swift */; };
+		6314320623AFD55000DEE103 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6314320523AFD55000DEE103 /* Assets.xcassets */; };
+		6314320923AFD55000DEE103 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6314320823AFD55000DEE103 /* Preview Assets.xcassets */; };
+		6314320C23AFD55000DEE103 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6314320A23AFD55000DEE103 /* LaunchScreen.storyboard */; };
+		6314321423AFD5DD00DEE103 /* EasySFSymbolsTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6314321323AFD5DD00DEE103 /* EasySFSymbolsTypeView.swift */; };
+		6314321623AFD87500DEE103 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6314321523AFD87500DEE103 /* TableViewController.swift */; };
+		6314321823AFD98C00DEE103 /* TestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6314321723AFD98C00DEE103 /* TestController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C13B07B318E5F1CED19452C /* Pods_EasySFSymbolsiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasySFSymbolsiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		631431FC23AFD54E00DEE103 /* EasySFSymbolsiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasySFSymbolsiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		631431FF23AFD54E00DEE103 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6314320123AFD54E00DEE103 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6314320323AFD54E00DEE103 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6314320523AFD55000DEE103 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6314320823AFD55000DEE103 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6314320B23AFD55000DEE103 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6314320D23AFD55000DEE103 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6314321323AFD5DD00DEE103 /* EasySFSymbolsTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasySFSymbolsTypeView.swift; sourceTree = "<group>"; };
+		6314321523AFD87500DEE103 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		6314321723AFD98C00DEE103 /* TestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestController.swift; sourceTree = "<group>"; };
+		68B5BD19AC7B8F8453B2F80D /* Pods-EasySFSymbolsiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasySFSymbolsiOS.release.xcconfig"; path = "Target Support Files/Pods-EasySFSymbolsiOS/Pods-EasySFSymbolsiOS.release.xcconfig"; sourceTree = "<group>"; };
+		87705CB707EFC1A62215B148 /* Pods-EasySFSymbolsiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasySFSymbolsiOS.debug.xcconfig"; path = "Target Support Files/Pods-EasySFSymbolsiOS/Pods-EasySFSymbolsiOS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		631431F923AFD54E00DEE103 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				137835EAF96ACCF5DC08C0A5 /* Pods_EasySFSymbolsiOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49E238A713082D805D2A8D3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C13B07B318E5F1CED19452C /* Pods_EasySFSymbolsiOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		631431F323AFD54E00DEE103 = {
+			isa = PBXGroup;
+			children = (
+				631431FE23AFD54E00DEE103 /* EasySFSymbolsiOS */,
+				631431FD23AFD54E00DEE103 /* Products */,
+				A6D7E6582346E39AB55A5765 /* Pods */,
+				49E238A713082D805D2A8D3C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		631431FD23AFD54E00DEE103 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				631431FC23AFD54E00DEE103 /* EasySFSymbolsiOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		631431FE23AFD54E00DEE103 /* EasySFSymbolsiOS */ = {
+			isa = PBXGroup;
+			children = (
+				631431FF23AFD54E00DEE103 /* AppDelegate.swift */,
+				6314320123AFD54E00DEE103 /* SceneDelegate.swift */,
+				6314320323AFD54E00DEE103 /* ContentView.swift */,
+				6314320523AFD55000DEE103 /* Assets.xcassets */,
+				6314320A23AFD55000DEE103 /* LaunchScreen.storyboard */,
+				6314320D23AFD55000DEE103 /* Info.plist */,
+				6314320723AFD55000DEE103 /* Preview Content */,
+				6314321323AFD5DD00DEE103 /* EasySFSymbolsTypeView.swift */,
+				6314321523AFD87500DEE103 /* TableViewController.swift */,
+				6314321723AFD98C00DEE103 /* TestController.swift */,
+			);
+			path = EasySFSymbolsiOS;
+			sourceTree = "<group>";
+		};
+		6314320723AFD55000DEE103 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6314320823AFD55000DEE103 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A6D7E6582346E39AB55A5765 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87705CB707EFC1A62215B148 /* Pods-EasySFSymbolsiOS.debug.xcconfig */,
+				68B5BD19AC7B8F8453B2F80D /* Pods-EasySFSymbolsiOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		631431FB23AFD54E00DEE103 /* EasySFSymbolsiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6314321023AFD55000DEE103 /* Build configuration list for PBXNativeTarget "EasySFSymbolsiOS" */;
+			buildPhases = (
+				18A41B7F1291F4FA2C9C93CD /* [CP] Check Pods Manifest.lock */,
+				631431F823AFD54E00DEE103 /* Sources */,
+				631431F923AFD54E00DEE103 /* Frameworks */,
+				631431FA23AFD54E00DEE103 /* Resources */,
+				99D19EB0E5B0EB0F99F07D8C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasySFSymbolsiOS;
+			productName = EasySFSymbolsiOS;
+			productReference = 631431FC23AFD54E00DEE103 /* EasySFSymbolsiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		631431F423AFD54E00DEE103 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Crazy凡";
+				TargetAttributes = {
+					631431FB23AFD54E00DEE103 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 631431F723AFD54E00DEE103 /* Build configuration list for PBXProject "EasySFSymbolsiOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 631431F323AFD54E00DEE103;
+			productRefGroup = 631431FD23AFD54E00DEE103 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				631431FB23AFD54E00DEE103 /* EasySFSymbolsiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		631431FA23AFD54E00DEE103 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6314320C23AFD55000DEE103 /* LaunchScreen.storyboard in Resources */,
+				6314320923AFD55000DEE103 /* Preview Assets.xcassets in Resources */,
+				6314320623AFD55000DEE103 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18A41B7F1291F4FA2C9C93CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasySFSymbolsiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99D19EB0E5B0EB0F99F07D8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasySFSymbolsiOS/Pods-EasySFSymbolsiOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasySFSymbolsiOS/Pods-EasySFSymbolsiOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EasySFSymbolsiOS/Pods-EasySFSymbolsiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		631431F823AFD54E00DEE103 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6314320023AFD54E00DEE103 /* AppDelegate.swift in Sources */,
+				6314320223AFD54E00DEE103 /* SceneDelegate.swift in Sources */,
+				6314320423AFD54E00DEE103 /* ContentView.swift in Sources */,
+				6314321823AFD98C00DEE103 /* TestController.swift in Sources */,
+				6314321623AFD87500DEE103 /* TableViewController.swift in Sources */,
+				6314321423AFD5DD00DEE103 /* EasySFSymbolsTypeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6314320A23AFD55000DEE103 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6314320B23AFD55000DEE103 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6314320E23AFD55000DEE103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6314320F23AFD55000DEE103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6314321123AFD55000DEE103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87705CB707EFC1A62215B148 /* Pods-EasySFSymbolsiOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"EasySFSymbolsiOS/Preview Content\"";
+				DEVELOPMENT_TEAM = HV88ACAAR6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = EasySFSymbolsiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.crazyfan.EasySFSymbolsiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6314321223AFD55000DEE103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68B5BD19AC7B8F8453B2F80D /* Pods-EasySFSymbolsiOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"EasySFSymbolsiOS/Preview Content\"";
+				DEVELOPMENT_TEAM = HV88ACAAR6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = EasySFSymbolsiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.crazyfan.EasySFSymbolsiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		631431F723AFD54E00DEE103 /* Build configuration list for PBXProject "EasySFSymbolsiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6314320E23AFD55000DEE103 /* Debug */,
+				6314320F23AFD55000DEE103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6314321023AFD55000DEE103 /* Build configuration list for PBXNativeTarget "EasySFSymbolsiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6314321123AFD55000DEE103 /* Debug */,
+				6314321223AFD55000DEE103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 631431F423AFD54E00DEE103 /* Project object */;
+}
