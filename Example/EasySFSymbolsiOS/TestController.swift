@@ -13,8 +13,7 @@ struct TestController: UIViewControllerRepresentable {
         TableViewController()
     }
 
-    func updateUIViewController(_ uiViewController: TableViewController, context: UIViewControllerRepresentableContext<TestController>) {
-    }
+    func updateUIViewController(_ uiViewController: TableViewController, context: UIViewControllerRepresentableContext<TestController>) {}
 
     typealias UIViewControllerType = TableViewController
 }

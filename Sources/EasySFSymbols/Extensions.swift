@@ -9,7 +9,6 @@
 import UIKit
 
 public extension UIImage {
-
     convenience init?(_ type: EasySFSymbolsType) {
         self.init(systemName: type.rawValue)
     }
@@ -36,5 +35,3 @@ public extension Image {
         self.init(systemName: eType.rawValue)
     }
 }
-
-

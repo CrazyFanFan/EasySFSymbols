@@ -15,7 +15,6 @@ extension EasySFSymbolsType: Identifiable {
     }
 }
 
-
 struct ContentView: View {
     var body: some View {
         NavigationView {
